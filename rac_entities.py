@@ -1,4 +1,4 @@
-from pony.orm import *
+from pony.orm import Database, Required, Set, Optional
 
 db = Database()
 

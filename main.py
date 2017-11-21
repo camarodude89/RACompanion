@@ -1,6 +1,6 @@
 import csv
-from rac_entities import User, Machine
-from pony.orm import *
+from rac_entities import User, Machine, db
+from pony.orm import db_session, select
 
 @db_session
 def add_csv_data():
